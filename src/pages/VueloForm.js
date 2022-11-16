@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import botonDestino from "../components/BotonDestino";
 import "../Theme.css";
 
 function VueloForm(props) {
@@ -42,10 +41,6 @@ function VueloForm(props) {
         <br />
         <input type="submit" value="Submit" />
       </form>
-      <botonDestino destino="Roma" />
-      <botonDestino destino="Venecia" />
-      <botonDestino destino="Destino 3" />
-      <botonDestino destino="Destino 4" />
     </div>
   );
 }

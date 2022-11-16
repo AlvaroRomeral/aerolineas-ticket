@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import NotFoundPage from "./pages/NotFoundPage";
 import OriginPage from "./pages/OriginPage";
 import DestinyPage from "./pages/DestinyPage";
+import Form from "./pages/VueloForm";
 import "./App.css";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<OriginPage />} />
         <Route path="/origen/:origen" element={<DestinyPage/>}/>
+        <Route path="/form/:origen" element={<Form/>}/>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>

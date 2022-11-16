@@ -1,7 +1,6 @@
 .BotonOrigen{
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     /* background-color: cornflowerblue; */
     background-image: url("./cabezera.jpg");
     display: flex;
@@ -25,7 +24,7 @@
 }
 
 .text1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
     color: white;
     text-decoration: none;
 
@@ -39,6 +38,12 @@
 
 .cabezera{
     color: black;
+    flex-direction: column;
+}
+
+.div{
+    display: flex;
+
 }
 
 .form{
